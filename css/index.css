@@ -1,0 +1,163 @@
+a{
+  color: #747474;
+}
+
+a:hover{
+  color: #f76a77;
+  text-decoration: none;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+  background-color: #fff;
+}
+
+.navbar-brand > img{
+  height: 22px;
+}
+.navbar-custom{
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+
+.main .left_menu h3{
+  font-size: 14px;
+  background-color: #f76a77;
+  padding: 5px;
+  margin-bottom: 0px;
+  color: #fff;
+  border-radius: 0px 10px 0px 0px;
+  margin-top: 0px;
+}
+
+.main .left_menu ul{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.main .left_menu ul.activity li{
+  border-bottom: 1px solid #eee;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.main .left_menu ul.activity li.active a{
+  color: #d25f9d;
+}
+
+.main .left_menu ul.activity li:last-child{
+  border-bottom: 0px;
+}
+
+.main .left_menu ul.category li{
+  border-bottom: 1px solid #eee;
+  padding: 7px;
+  font-size: 12px;
+}
+
+.main .left_menu ul.category li:last-child{
+  border-bottom: 0px;
+}
+
+.main .index{
+  margin-top: 75px;
+}
+
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 27px;
+    line-height: 20px;
+    letter-spacing: 4px;
+}
+.btn-custom{
+  border: 1px solid #eee;
+  background-color: #eee;
+  font-size: 14px;
+}
+.thumbnail h3{
+  font-size: 14px;
+  margin: 5px 0px;
+  width: 100%;
+  overflow: hidden;
+  height: 16px;
+}
+
+.thumbnail ul{
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px 0px;
+}
+.thumbnail ul li{
+  display: inline;
+  padding: 3px 6px;
+  margin: 0px 1px;
+  background-color: #eee;
+  line-height: 24px;
+  font-size: 11px;
+}
+.thumbnail p.price{
+  font-size: 14px;
+}
+.thumbnail p span{
+  padding-left: 10px;
+}
+.index .breadcrumb select{
+  margin-left: 10px;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #adadad;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #f76a77;
+  border-color: #f76a77;
+}
+.index .alert-custom{
+  background-color: #ffdfdf;
+}
+
+.index .alert-custom span{
+  font-size: 14px;
+  margin-right: 20px;
+}
+
+.index .alert-custom button.close{
+  opacity: .7;
+}
+
+footer{
+  margin-top: 30px;
+  border-top: 1px solid #eee;
+  padding: 20px 0px;
+}
+footer ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+footer ul li.title{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+footer ul li{
+  font-size: 13px;
+  margin: 10px 0px;
+}
+
+.btn-custom{
+  background-color: #fff;
+  border: 1px solid #d5d5d5;
+}
+
+.btn-custom.active{
+  background-color: #e25a5a;
+  color: #fff;
+}

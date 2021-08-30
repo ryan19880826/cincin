@@ -1,0 +1,480 @@
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title> 購物車 | 新歆服飾 CinCin</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/show.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet">
+    <link href="css/user.css" rel="stylesheet">
+    <link href="css/smoothproducts.css" rel="stylesheet">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothproducts.js"></script>
+</head>
+
+<body class="main">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">新歆服飾 </a>
+                <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="請輸入產品名稱...">
+                  </div>
+                  <button type="submit" class="btn btn-custom">搜尋</button>
+                </form>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div >
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                        <a href="news.html">最新消息</a>
+                    </li>
+                    <li>
+                        <a href="about.html">關於新歆</a>
+                    </li>
+                    <li>
+                        <a href="buy_info.html">批貨說明</a>
+                    </li>
+                    <li>
+                        <a href="cart.html">購物車(3)</a>
+                    </li>
+                     <li>
+                        <a href="login.html">會員登入</a>
+                    </li>
+                    <li>
+                        <a href="member.html">會員中心</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container cart">
+      <ol class="breadcrumb">
+        <li><a href="index.html">首頁</a></li>
+        <li class="active">購物車</li>
+      </ol>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+            購物車明細
+            <span class="all_open pull-right coll-btn btn"><a href="#" onclick="$('.collapse').collapse('toggle');">全部展開</a></span>
+            </div>
+            <div class="panel-body">
+              <div class="activity-box">
+                <table class="table table-hover">
+                  <tr>
+                    <th colspan="6">
+                      <span class="label label-danger">預購活動</span>
+                      <span>結單日期：2016/07/01</span>
+                      <span>付款日期：2016/07/04</span>
+                      <span>預計到貨日期：2016/07/11</span>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>編號/產品名稱</td>
+                    <td class="col-lg-1 text-center">規格</td>
+                    <td class="col-lg-1 text-center">單價</td>
+                    <td class="col-lg-1 text-center">數量</td>
+                    <td class="col-lg-1 text-center">小記</td>
+                    <td class="col-lg-1 text-center">明細</td>
+                  </tr>
+                </table>
+                <div class="panel-group item" role="tablist">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                      <table class="table table-hover">
+                        <tr>
+                          <td><img src="images/product/show/1.jpg"> <a href="product_show.html">38929-素面交衩綁結比基尼套裝</a></td>
+                          <td class="col-lg-1 text-center">---</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center">8</td>
+                          <td class="col-lg-1 text-center">3200</td>
+                          <td class="col-lg-1 text-center"><a class="coll-btn btn" role="button" data-toggle="collapse" href="#product-1" aria-expanded="false" aria-controls="product-1"> 展開 </a> </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div id="product-1" class="panel-collapse collapse " role="tabpanel">
+                      <table class="table table-hover">
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">白色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-group item" role="tablist">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                      <table class="table table-hover">
+                        <tr>
+                          <td><img src="images/product/show/2.jpg"> <a href="product_show.html">929-素面基尼套裝</a></td>
+                          <td class="col-lg-1 text-center">---</td>
+                          <td class="col-lg-1 text-center">100</td>
+                          <td class="col-lg-1 text-center">30</td>
+                          <td class="col-lg-1 text-center">30,000</td>
+                          <td class="col-lg-1 text-center"><a class="coll-btn btn" role="button" data-toggle="collapse" href="#product-2" aria-expanded="false" aria-controls="product-2"> 展開 </a> </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div id="product-2" class="panel-collapse collapse " role="tabpanel">
+                      <table class="table table-hover">
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">白色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-group item" role="tablist">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                      <table class="table table-hover">
+                        <tr>
+                          <td><img src="images/product/show/3.jpg"> <a href="product_show.html">1929-上衣裝</a></td>
+                          <td class="col-lg-1 text-center">---</td>
+                          <td class="col-lg-1 text-center">100</td>
+                          <td class="col-lg-1 text-center">30</td>
+                          <td class="col-lg-1 text-center">30,000</td>
+                          <td class="col-lg-1 text-center"><a class="coll-btn btn" role="button" data-toggle="collapse" href="#product-3" aria-expanded="false" aria-controls="product-3"> 展開 </a> </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div id="product-3" class="panel-collapse collapse " role="tabpanel">
+                      <table class="table table-hover">
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">白色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <table class="table table-hover">
+                  <tr>
+                    <td></td>
+                    <td class="col-lg-1 text-center">總計</td>
+                    <td class="col-lg-1 text-center">300</td>
+                    <td class="col-lg-1 text-center">$922,9392</td>
+                    <td class="col-lg-1 text-center"></td>
+                  </tr>
+                </table>
+              </div>
+              <div class="activity-box">
+                <table class="table table-hover">
+                  <tr>
+                    <th colspan="6">
+                      <span class="label label-danger">現貨活動</span>
+                      <span>結單日期：2016/07/01</span>
+                      <span>付款日期：2016/07/04</span>
+                      <span>預計到貨日期：2016/07/11</span>
+                    </th>
+                  </tr>
+                  <tr>
+                    <td>編號/產品名稱</td>
+                    <td class="col-lg-1 text-center">規格</td>
+                    <td class="col-lg-1 text-center">單價</td>
+                    <td class="col-lg-1 text-center">數量</td>
+                    <td class="col-lg-1 text-center">小記</td>
+                    <td class="col-lg-1 text-center">明細</td>
+                  </tr>
+                </table>
+                <div class="panel-group item" role="tablist">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                      <table class="table table-hover">
+                        <tr>
+                          <td><img src="images/product/show/1.jpg"> <a href="product_show.html">38929-素面交衩綁結比基尼套裝</a></td>
+                          <td class="col-lg-1 text-center">---</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center">8</td>
+                          <td class="col-lg-1 text-center">3200</td>
+                          <td class="col-lg-1 text-center"><a class="coll-btn btn" role="button" data-toggle="collapse" href="#product-4" aria-expanded="false" aria-controls="product-4"> 展開 </a> </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div id="product-4" class="panel-collapse collapse " role="tabpanel">
+                      <table class="table table-hover">
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">白色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-group item" role="tablist">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                      <table class="table table-hover">
+                        <tr>
+                          <td><img src="images/product/show/2.jpg"> <a href="product_show.html">929-素面基尼套裝</a></td>
+                          <td class="col-lg-1 text-center">---</td>
+                          <td class="col-lg-1 text-center">100</td>
+                          <td class="col-lg-1 text-center">30</td>
+                          <td class="col-lg-1 text-center">30,000</td>
+                          <td class="col-lg-1 text-center"><a class="coll-btn btn" role="button" data-toggle="collapse" href="#product-5" aria-expanded="false" aria-controls="product-5"> 展開 </a> </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div id="product-5" class="panel-collapse collapse " role="tabpanel">
+                      <table class="table table-hover">
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">白色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel-group item" role="tablist">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" role="tab">
+                      <table class="table table-hover">
+                        <tr>
+                          <td><img src="images/product/show/3.jpg"> <a href="product_show.html">1929-上衣裝</a></td>
+                          <td class="col-lg-1 text-center">---</td>
+                          <td class="col-lg-1 text-center">100</td>
+                          <td class="col-lg-1 text-center">30</td>
+                          <td class="col-lg-1 text-center">30,000</td>
+                          <td class="col-lg-1 text-center"><a class="coll-btn btn" role="button" data-toggle="collapse" href="#product-6" aria-expanded="false" aria-controls="product-6"> 展開 </a> </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div id="product-6" class="panel-collapse collapse " role="tabpanel">
+                      <table class="table table-hover">
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">黃色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                        <tr>
+                          <td></td>
+                          <td class="col-lg-1 text-center">白色-xL</td>
+                          <td class="col-lg-1 text-center">400</td>
+                          <td class="col-lg-1 text-center"><input type="text" class="form-control" placeholder="請填入購買數量..." value="4"></td>
+                          <td class="col-lg-1 text-center">300</td>
+                          <td class="col-lg-1 text-center"><a href="" class="btn delete">刪除</a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <table class="table table-hover">
+                  <tr>
+                    <td></td>
+                    <td class="col-lg-1 text-center">總計</td>
+                    <td class="col-lg-1 text-center">300</td>
+                    <td class="col-lg-1 text-center">$922,9392</td>
+                    <td class="col-lg-1 text-center"></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+            寄件資訊
+            </div>
+            <div class="panel-body">
+              <div class="row">
+                <div class="col-lg-8">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label">寄件方式</label>
+                      <div class="col-sm-10">
+                        <div class="btn-group" data-toggle="buttons">
+                          <label class="btn btn-custom active">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked> 宅配
+                          </label>
+                          <label class="btn btn-custom">
+                            <input type="radio" name="options" id="option2" autocomplete="off"> 自取
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-2 control-label">收件人</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="請填寫收件人">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label">聯絡電話</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="請填寫聯絡電話">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword3" class="col-sm-2 control-label">收件地址</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputEmail3" placeholder="請填寫收件地址">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" class="btn btn-default add pull-right">確認購買</button>
+        </div>
+      </div>
+      <footer>
+          <div class="row">
+              <div class="col-lg-2">
+                <ul>
+                  <li class="title"><a  >關於我們</a></li>
+                  <li><a href="about.html">品牌介紹</a></li>
+                  <li><a href="#">聯絡我們</a></li>
+                  <li><a href="#">臉書社團</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul >
+                  <li class="title"><a >購物須知</a></li>
+                  <li><a href="policy.html">購買說明</a></li>
+                  <li><a href="policy.html">付款方式</a></li>
+                  <li><a href="policy.html">國內運費計算</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2">
+                <ul>
+                  <li class="title"><a href="#">相關條例</a></li>
+                  <li><a href="policy.html">著作權聲明</a></li>
+                  <li><a href="policy.html">服務條款</a></li>
+                  <li><a href="policy.html">交易須知</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-6 text-center">
+                  <h3>新歆服飾 CinCin</h3>
+                  <p>客服專線：0800-323-789</p>
+                  <p>服務時間:週一至週五，0900~1300，1400~1800，國定假日休息</p>
+                  <p>Copyright &copy;新歆服飾 2016</p>
+              </div>
+          </div>
+          <!-- /.row -->
+      </footer>
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+
+<script type="text/javascript">
+  $( document ).ready(function() {
+    $('.sp-wrap').smoothproducts();
+  });
+</script>
+</body>
+
+</html>

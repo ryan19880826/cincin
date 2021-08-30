@@ -1,0 +1,385 @@
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>新歆服飾 CinCin</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/news.css" rel="stylesheet">
+    <link href="css/about.css" rel="stylesheet">
+    <link href="css/show.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet">
+    <link href="css/user.css" rel="stylesheet">
+    <link href="css/smoothproducts.css" rel="stylesheet">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/smoothproducts.js"></script>
+</head>
+
+<body class="main">
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">新歆服飾 </a>
+                <form class="navbar-form navbar-left" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="請輸入產品名稱...">
+                  </div>
+                  <button type="submit" class="btn btn-custom">搜尋</button>
+                </form>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div >
+                <ul class="nav navbar-nav pull-right">
+                    <li>
+                        <a href="news.html">最新消息</a>
+                    </li>
+                    <li>
+                        <a href="about.html">關於新歆</a>
+                    </li>
+                    <li>
+                        <a href="buy_info.html">批貨說明</a>
+                    </li>
+                    <li>
+                        <a href="cart.html">購物車(3)</a>
+                    </li>
+                     <li>
+                        <a href="login.html">會員登入</a>
+                    </li>
+                    <li>
+                        <a href="member.html">會員中心</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container index">
+      <div class="row">
+        <div class="col-lg-2 left_menu">
+          <h3>活動專區</h3>
+          <ul class="activity">
+            <li> <a href="cateogry_products.html">現貨 2016/06/03 結單</a> </li>
+            <li class="active"> <a href="cateogry_products.html">預購 2016/06/03 結單</a> </li>
+            <li> <a href="cateogry_products.html">預購 2016/06/03 結單</a> </li>
+          </ul>
+          <h3>產品分類</h3>
+          <ul class="category">
+            <li><a href="cateogry_products.html"> 大筆電</a></li>
+            <li><a href="cateogry_products.html"> 桌上電腦</a></li>
+            <li><a href="cateogry_products.html"> 商用電腦</a></li>
+            <li><a href="cateogry_products.html"> DIY電腦</a></li>
+            <li><a href="cateogry_products.html"> DIY電競</a></li>
+            <li><a href="cateogry_products.html"> LCD螢幕</a></li>
+            <li><a href="cateogry_products.html"> 網  路</a></li>
+            <li><a href="cateogry_products.html"> 網路硬碟</a></li>
+            <li><a href="cateogry_products.html"> 視訊監控</a></li>
+            <li><a href="cateogry_products.html"> 外接硬碟</a></li>
+            <li><a href="cateogry_products.html"> 內接硬碟</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-10">
+          <ol class="breadcrumb">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">活動專區</a></li>
+            <li class="active">預購 2016/06/03 結單</li>
+            <select id="sold" class="pull-right ">
+              <option value="desc">銷售數量(高到低)</option>
+              <option value="ace">銷售數量(低到高)</option>
+            </select>
+             <select  id="on_time" class="pull-right ">
+              <option value="ace">上架時間(新到舊)</option>
+              <option value="desc">上架時間(舊到新)</option>
+            </select>
+             <select id="price" class="pull-right ">
+              <option value="ace">產品售價(低到高)</option>
+              <option value="desc">產品售價(高到低)</option>
+            </select>
+          </ol>
+          <div class="alert alert-custom alert-dismissible fade in" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+            <span class="label label-danger">預購活動</span>
+            <span>結單日期：2016/07/01</span> <span>付款日期：2016/07/04</span> <span>預計到貨日期：2016/07/11</span>
+          </div>
+          <div class="row">
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/1.jpg" class="img-responsive" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>S</li>
+                      <li>XS</li>
+                      <li>M</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/2.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/3.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                      <li>黑</li>
+                      <li>白</li>
+                      <li>黑</li>
+                      <li>白</li>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/4.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/5.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/6.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/7.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/8.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/9.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/10.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/11.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-3">
+              <a href= "product_show.html">
+                <div class="thumbnail">
+                  <img src="images/product/12.jpg" alt="衣服">
+                  <div class="caption">
+                    <h3>素面交衩綁結比基尼套裝</h3>
+                    <ul>
+                      <li>黑</li>
+                      <li>白</li>
+                      <li>黑</li>
+                      <li>白</li>
+                      <li>黑</li>
+                      <li>白</li>
+                      <li>黑</li>
+                      <li>白</li>
+                    </ul>
+                    <p class="price">NT$200 <span>低消:5件</span></p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- Pagination -->
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <ul class="pagination">
+                    <li>
+                        <a href="#">&laquo;</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.row -->
+      </div>
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-2">
+                  <ul>
+                    <li class="title"><a  >關於我們</a></li>
+                    <li><a href="about.html">品牌介紹</a></li>
+                    <li><a href="#">聯絡我們</a></li>
+                    <li><a href="#">臉書社團</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-2">
+                  <ul >
+                    <li class="title"><a >購物須知</a></li>
+                    <li><a href="policy.html">購買說明</a></li>
+                    <li><a href="policy.html">付款方式</a></li>
+                    <li><a href="policy.html">國內運費計算</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-2">
+                  <ul>
+                    <li class="title"><a href="#">相關條例</a></li>
+                    <li><a href="policy.html">著作權聲明</a></li>
+                    <li><a href="policy.html">服務條款</a></li>
+                    <li><a href="policy.html">交易須知</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <h3>新歆服飾 CinCin</h3>
+                    <p>客服專線：0800-323-789</p>
+                    <p>服務時間:週一至週五，0900~1300，1400~1800，國定假日休息</p>
+                    <p>Copyright &copy;新歆服飾 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+
+
+</body>
+
+</html>

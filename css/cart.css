@@ -1,0 +1,77 @@
+.cart{
+  margin-top: 75px;
+}
+.cart table{
+  margin-bottom: 0px;
+}
+.cart table tr th{
+  background-color: #eee;
+}
+.cart table tr td{
+  vertical-align: middle;
+  padding: 3px;
+}
+
+.cart table tr td img{
+  width: 65px;
+}
+
+.cart table tr td input{
+  text-align: center;
+}
+
+.cart .panel-heading{
+  font-size: 15px;
+}
+
+.cart .panel-heading span{
+  margin-right: 10px;
+}
+.cart .btn.add{
+  background-color: #f76a77;
+  color: #fff;
+  width: 200px;
+}
+
+.cart .btn.delete{
+  background-color: #b3b3b3;
+  border: 1px solid #ffffff;
+  padding: 5px 12px;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 3px;
+}
+
+.cart .item .panel-default{
+  border: 0px;
+}
+.cart .item .panel-heading{
+  background-color: #fff;
+  padding: 0px;
+}
+
+.cart .item table{
+  margin-bottom: 0px;
+}
+.cart .panel-group.item{
+  margin-bottom: 0px;
+}
+.cart .activity-box{
+  margin-bottom: 20px;
+}
+
+.cart .coll-btn{
+  background-color: #ff8282;
+  border: 1px solid #ffffff;
+  padding: 5px 12px;
+  color: #fff;
+  font-size: 11px;
+  border-radius: 3px;
+}
+.cart .all_open a{
+  color: #fff;
+}
+
+.cart .item .panel-collapse td{
+  border-top: 1px dotted #eee;
+}

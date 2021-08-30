@@ -1,0 +1,39 @@
+.news{
+  margin-top: 75px;
+}
+.news .list{
+  min-height: 500px;
+}
+.news .list h2{
+  font-size: 14px;
+  background-color: #f76a77;
+  padding: 5px;
+  margin-bottom: 0px;
+  color: #fff;
+  border-radius: 0px 10px 0px 0px;
+  margin-top: 0px;
+}
+
+.news .list ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.news .list ul li{
+  font-size: 14px;
+  margin: 3px 0px;
+  border-bottom: 1px dotted #eee;
+  padding: 7px;
+}
+
+.news .list ul li.active a{
+  color: #f76a77;
+}
+.news .list ul li a span.date{
+  padding-right: 10px;
+}
+.news .content h4{
+  font-size: 14px;
+  margin: 10px 0px;
+}
